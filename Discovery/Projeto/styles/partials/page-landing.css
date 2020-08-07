@@ -29,7 +29,7 @@
 }
 
 .buttons-container {
-    display: flex;
+    display: flex; /*colocar um ao lado do outro*/
     justify-content: center; /*justify-content necessitar estar em conjunto com display-flex*/
     margin: 3.2rem 0;
 }
@@ -84,7 +84,7 @@
     justify-content: center;
 }
 
-.total.total-connections img {
+total-connections img {
     margin-left: 0.8rem;
 }
 
@@ -109,7 +109,7 @@
 
     .logo-container {
         grid-area: proffy;
-        text-align: inicial;
+        text-align: initial;
         align-self: center;
         margin: 0;
     }
